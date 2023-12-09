@@ -1,0 +1,37 @@
+.video-container {
+    margin-top: 20px;
+    width: 26rem;
+    height: 40rem;
+  }
+  
+  .video-player {
+    width: 100%;
+    height: 100%;
+
+  }
+  @media (max-width: 500px){
+    .video-container {
+        margin-top: 15px;
+        width: 19rem;
+        height: 28rem;
+      }
+      .play-pause-btn {
+        margin-left: 50px;
+      }
+  }
+  
+  .play-pause-btn {
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50px;
+    padding: 8px;
+    background-color: #FF5C5C;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: rgb(255, 255, 255); /* Set the color of your play/pause button */
+    cursor: pointer;
+    user-select: none;
+  }
